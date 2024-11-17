@@ -5,7 +5,10 @@
   "packages": {},
   "type": "module",
   "scripts": {
-    "build": "npx tsc",                  
-    "start": "npm run build && node dist/test.js" 
+    "build": "npx tsc",
+    "start": "npm run build && node dist/test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0"
   }
 }
