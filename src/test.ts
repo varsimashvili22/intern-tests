@@ -14,6 +14,7 @@ async function loadModule()
     
     console.log(myIndexElements.squaredNumber(5));//25
 }
+
 loadModule();
 
 // დასატესტად გამოიყენეთ npm start
