@@ -6,9 +6,13 @@
   "type": "module",
   "scripts": {
     "build": "npx tsc",
-    "start": "npm run build && node dist/test.js"
+    "test": "mocha dist/test.js"
   },
   "devDependencies": {
+    "@types/mocha": "^10.0.8",
     "@types/node": "^22.9.0"
+  },
+  "dependencies": {
+    "mocha": "^11.1.0"
   }
 }
